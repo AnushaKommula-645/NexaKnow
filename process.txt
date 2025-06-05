@@ -1,0 +1,20 @@
+pip install streamlit beautifulsoup4 requests google-generativeai
+
+requirements.txt — Python Libraries
+
+    streamlit
+    beautifulsoup4
+    requests
+    google-generativeai
+    Install them using:
+
+    pip install -r requirements.txt
+
+Run the App
+Now try:
+
+    streamlit run app.py
+
+If it still doesn’t work, try:
+
+    python -m streamlit run app.py

@@ -9,5 +9,3 @@ def ask_gemini(question, context):
     return response.text
 
 
-# $env:GOOGLE_API_KEY="AIzaSyBEmgn35jP1g62GVSfOmhfHBOMki4snsaY"
-# python -m streamlit run app.py
