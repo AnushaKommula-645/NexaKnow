@@ -28,7 +28,7 @@ if st.session_state.context:
     question = st.text_input("Ask a question about this content:")
 
     if question:
-        with st.spinner("Getting answer from Gemini..."):
+        with st.spinner("Getting answer..."):
             answer = ask_gemini(question, st.session_state.context)
 
         # Append current Q&A to session_state list
